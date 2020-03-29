@@ -5,7 +5,7 @@ import json
 
 features = []
 
-def sample_floats(low, high, k=200):
+def sample_floats(low, high, k=400):
     """ Return a k-length list of unique random floats
         in the range of low <= x <= high
     """
@@ -21,9 +21,9 @@ def sample_floats(low, high, k=200):
 
 f = open("fakedata.json", "w")
 
-x_lat = sample_floats(78.4767, 78.4970)
+x_lat = sample_floats(78.4267, 78.4970)
 print(len(x_lat))
-y_lat = sample_floats(17.3750, 17.3950)
+y_lat = sample_floats(17.3350, 17.3950)
 
 for x in x_lat:
     for y in y_lat:
