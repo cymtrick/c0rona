@@ -5,7 +5,7 @@ import json
 
 features = []
 
-def sample_floats(low, high, k=400):
+def sample_floats(low, high, k=100):
     """ Return a k-length list of unique random floats
         in the range of low <= x <= high
     """
